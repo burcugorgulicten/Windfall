@@ -1,9 +1,29 @@
-# Milestone 4 game
+# Windfall
 
 Windfall is a turn-based RPG, where the player can choose to use different abilities during the battle. There is a tutorial at the beginning to teach the player how to play, and there are dialogues throughout the game to describe the background and lore of the game. After the tutorial, the player has to command his companions and fight through 3 levels to defeat the necromancer boss, who has 2 phases. The player can save the game and come back to it later. Between the battle levels, there are two free-roam levels where the player can move around and explore the environment. There are chests in these levels for them to grab stat boosts to aid them in their later battles. The game has a full beginning, story, and conclusion. There is also a custom mode called "Makeup Mode", where it becomes an arena-style game and the player can choose the characters they used and also the enemies they fight.
 
 
-# Features to meet Milestone 1 goals (100 points total)
+# External Dependencies
+```
+gl3w
+GLFW
+SDL/SDL mixer
+stb image
+glm
+```
+
+
+# Contributors
+
+Alice Huang
+Burcu Gorgulicten
+David Cai
+Esa Ahani
+Mars Wang
+Parth Garg
+
+
+# Features to meet Milestone 1 goals
 
 * Team organization (10): We highlighted the things to implement for M1 and split work in this Google Doc: https://docs.google.com/document/d/1QWKuOjX_pdWck4bl-a7f72ohOxoafkprBA8ZyGuS5p8/edit?usp=sharing
 * Random/coded action (5): The enemy gets knocked back when hit by fireball
@@ -20,7 +40,7 @@ Windfall is a turn-based RPG, where the player can choose to use different abili
 * Particle Systems (10): The enemy will explode into hundreds of particles when HP reaches 0
 
 
-# Features to meet Milestone 2 goals (100 points total)
+# Features to meet Milestone 2 goals
 
 * Gameplay I (10): Added the swordsman character, added a few abilities, including Melee Attack, Taunt, Heal, Ice Shard, Rock. There are two levels for the player to get through, and they need to strategize based on the enemy AI.
 * Sprite animation (10): There are idle, death, and casting ability animations for both of the characters.
@@ -37,7 +57,7 @@ Windfall is a turn-based RPG, where the player can choose to use different abili
 * Crash free (5): The game does not crash.
 * Bug and feature fixes (5): Fixed numerous bugs.
 
-# Features to meet Milestone 3 goals (105 points total)
+# Features to meet Milestone 3 goals
 
 * Gameplay II (10): Added two more levels, added a tutorial, added 3 more enemy types and the necromancer boss for the final level. Added introduction and dialogue between levels to describe the story.
 * Level loading (10): Added JSON files that can be loaded by the game as different levels, using a JSON loader.
@@ -53,7 +73,7 @@ Windfall is a turn-based RPG, where the player can choose to use different abili
 * Memory management (5): Memory usage is fairly low and dynamically-allocated memory are released properly.
 * Bug and feature fixes (5): Fixed numerous bugs such as the camera trail and the debugging boxes. Moreover removed the magenta border.
 
-# Features to meet Milestone 4 goals (100 points total)
+# Features to meet Milestone 4 goals
 
 * Gameplay III (10): Added two free-roam levels where the player can explore and find rewards. Added an archer character to the battle system who is also the protagonist of the story. Added more dialogue between levels and a conclusion for the player to read.
 * Simple path finding (10): Added an enemy-seeking arrow that calculates the shortest path using BFS to the enemy and hits them.
