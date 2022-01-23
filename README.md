@@ -15,12 +15,12 @@ glm
 
 # Contributors
 
-Alice Huang
-Burcu Gorgulicten
-David Cai
-Esa Ahani
-Mars Wang
-Parth Garg
+Alice Huang, 
+Burcu Gorgulicten, 
+David Cai, 
+Esa Ahani, 
+Mars Wang, 
+Parth Garg, 
 
 
 # Features to meet Milestone 1 goals
