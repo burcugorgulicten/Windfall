@@ -20,7 +20,7 @@ Burcu Gorgulicten,
 David Cai, 
 Esa Ahani, 
 Mars Wang, 
-Parth Garg, 
+Parth Garg
 
 
 # Features to meet Milestone 1 goals
